@@ -1,0 +1,86 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/TnBz9vvr"))()
+local Window = Library.CreateLib("Popzxcl", "DarkTheme")
+
+local Tab = Window:NewTab("หน้าแรก")
+local Section = Tab:NewSection("วาป")
+
+Section:NewButton("ห้องแห่งความเงิน", "ไม่มีอะไร", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(32.731910705566406, 111.83883666992188, -1134.96533203125)
+end)
+Section:NewButton("ลังกล่อง", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(120.69666290283203, 85.33869934082031, -88.09580993652344)
+end)
+Section:NewButton("ห้องครัว", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-38.196712493896484, 86.33871459960938, -367.1593933105469)
+end)
+Section:NewButton("หลังครัว", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-33.98202896118164, 85.33869934082031, -407.2366638183594)
+end)
+Section:NewButton("เครื่องชั่งน้ำหนัก", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-144.21339416503906, 85.71881103515625, -443.2826843261719)
+end)
+Section:NewButton("ร้านขนมปัง", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20.41339683532715, 86.58860778808594, -183.948486328125)
+end)
+Section:NewButton("ซุปเปอร์มาร์เก็ต", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(114.36943054199219, 86.33868408203125, -173.65428161621094)
+end)
+Section:NewButton("ท่อระบายน้ำ", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.5208511352539, 85.4245834350586, -302.64019775390625)
+end)
+Section:NewButton("เครื่องปรุงยา", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.64336013793945, 65.99342346191406, -845.2053833007812)
+end)
+Section:NewButton("รถยก", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-167.71461486816406, 85.33869934082031, -27.485200881958008)
+end)
+Section:NewButton("กรงแมว", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(126.81953430175781, 103.08869934082031, -494.3768310546875)
+end)
+Section:NewButton("SUS", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-149.2600555419922, 115.83869934082031, -486.32171630859375)
+end)
+Section:NewButton("เต่า", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.97557830810547, 101.33871459960938, -536.0419921875)
+end)
+Section:NewButton("ห้อง VR", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(308.3879089355469, 112.44803619384766, -52.696372985839844)
+end)
+Section:NewButton("ห้องแห่งความลับ", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(292.8487243652344, 94.5887451171875, -178.43092346191406)
+end)
+Section:NewButton("จุดเกิดลูกค้า", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(152.2777099609375, 85.33584594726562, -326.051025390625)
+end)
+Section:NewButton("ห้องรถออก", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(150.65017700195312, 84.33868408203125, -426.0520935058594)
+end)
+Section:NewButton("ห้องลับในท่อน้ำ", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9.732266426086426, 101.3685302734375, -1052.423095703125)
+end)
+
+local VIP = Instance.new("ScreenGui")
+local KK = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+
+VIP.Name = "VIP"
+VIP.Parent = game.CoreGui
+VIP.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+KK.Name = "KK"
+KK.Parent = VIP
+KK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KK.BorderSizePixel = 0
+KK.Position = UDim2.new(0.0857338831, 0, 0.0989974961, 0)
+KK.Size = UDim2.new(0, 50, 0, 50)
+KK.Font = Enum.Font.SourceSans
+KK.Text = "UI"
+KK.TextColor3 = Color3.fromRGB(0, 0, 0)
+KK.TextSize = 14.000
+KK.MouseButton1Click:Connect(function()
+game.CoreGui:FindFirstChild("1").Enabled = not game.CoreGui:FindFirstChild("1").Enabled
+end )
+UICorner.Parent = KK
